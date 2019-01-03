@@ -1057,6 +1057,10 @@ html, body, .container {
         height: 85%;
     }
     
+    .container header h1  {
+        font-size: 20px;
+    }
+    
     .container .aboutme {
         height: 450px;
     }
