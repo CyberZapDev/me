@@ -878,18 +878,17 @@ html, body, .container {
         position: fixed;
         text-align: center;
         width: 100%;
-        top: 100px;
+        top: 15%;
+        height: 85%;
         z-index: 1000;
-        height: 790px;
     }
     
     .container .mobilenav a {
+        padding: 10% 0px;
         font-family: "Karla";
-        font-size: 30px;
-        padding: 50px 0px;
+        font-size: 20px;
         text-decoration: none;
         color: #141414;
-        display: block;
     }
 }
 
@@ -952,10 +951,6 @@ html, body, .container {
         font-size: 20px;
     }
     
-    .container footer {
-        height: 380px;
-    }
-    
     .container .somework .work:nth-of-type(2) {
         display: none;
     }
@@ -966,10 +961,6 @@ html, body, .container {
 }
 
 @media screen and (max-width: 400px) {
-    .container .mobilenav {
-        height: 85%;
-    }
-    
     .container .aboutme {
         height: 450px;
     }
@@ -1052,15 +1043,7 @@ html, body, .container {
     }
 }
 
-@media screen and (max-width: 360px) {
-    .container .mobilenav {
-        height: 85%;
-    }
-    
-    .container .mobilenav a {
-        font-size: 20px;
-    }
-    
+@media screen and (max-width: 360px) {  
     .container header h1  {
         font-size: 20px;
     }
