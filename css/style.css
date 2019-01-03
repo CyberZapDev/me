@@ -1144,3 +1144,17 @@ html, body, .container {
         padding: 10px 0px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .container .aboutme .aboutmetext .aboutmeskills {
+        width: 200%;
+    }
+    
+    .container footer {
+        height: 130%;
+    }
+    
+    .container footer .socialmedia a {
+        width: 16px;
+    }
+}
