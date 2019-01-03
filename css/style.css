@@ -966,60 +966,190 @@ html, body, .container {
 }
 
 @media screen and (max-width: 400px) {
-    .container header h1 {
+    .container .mobilenav {
+        height: 85%;
+    }
+    
+    .container .aboutme {
+        height: 450px;
+    }
+    
+    .container .aboutmeheading h1 {
         font-size: 20px;
     }
     
-    .container .aboutme .aboutmetext .aboutmeskills span {
-        font-size: 15px;
-    }
-    
-    .container .aboutme .aboutmetext .aboutmeskills .skill {
-        height: 2px;
-    }
-    
-    .container .aboutme .aboutmetext .aboutmeskills {
-        margin-top: 20px;
-    }
-    
     .container .partnersbg h1 {
-        font-size: 25px;
-    }
-    
-    .container .partnersinner {
-        width: 100%;
+        font-size: 20px;
     }
     
     .container .someworkheading h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
     
-    .container .testimonials .testimonial {
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-    
-    .container .testimonials .testimonial p {
+    .container .partnersbg .partnersinner {
         width: 100%;
     }
     
+    .container .partnersbg .partnersinner li img {
+        transform: scale(0.7);
+    }
+    
+    .container .somework .work {
+        height: auto;
+    }
+    
+    .container .somework .work h1 {
+        font-size: 18px;
+    }
+    
+    .container .somework .work p {
+        font-size: 12px;
+    }
+    
+    .container .somework .work button {
+        font-size: 16px;
+    }
+    
+    .container .workbutton button {
+        font-size: 15px;
+    }
+    
+    .container .testimonialsheader h1 {
+        font-size: 20px;
+    }
+    
+    .container .testimonials .testimonial .testimonialimage img {
+        width: 64px;
+    }
+    
+    .container .testimonials .testimonial .ratingstars {
+        font-size: 14px;
+    }
+    
+    .container .testimonials .testimonial {
+        padding: 0px 5px;
+        width: 80%;
+    }
+    
+    .container .testimonials .testimonial p {
+        font-size: 12px;
+    }
+    
+    .container .homecontact h3 {
+        font-size: 15px;
+    }
+    
+    .container .homecontact h1 {
+        font-size: 20px;
+    }
+    
+    .container .formbox .contactinfo h1 {
+        font-size: 18px;
+    }
+    
     .container footer {
-        height: 700px;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container .mobilenav {
+        height: 85%;
+    }
+    
+    .container .aboutme {
+        height: 450px;
+    }
+    
+    .container .aboutme .aboutmetext .aboutmeskills {
+        margin-top: 20%;
+    }
+    
+    .container .aboutmeheading h1 {
+        font-size: 20px;
+    }
+    
+    .container .partnersbg h1 {
+        font-size: 20px;
+    }
+    
+    .container .someworkheading h1 {
+        font-size: 20px;
+    }
+    
+    .container .partnersbg .partnersinner {
+        width: 100%;
+    }
+    
+    .container .partnersbg .partnersinner li img {
+        transform: scale(0.7);
+    }
+    
+    .container .somework .work {
+        height: auto;
+    }
+    
+    .container .somework .work h1 {
+        font-size: 18px;
+    }
+    
+    .container .somework .work p {
+        font-size: 12px;
+    }
+    
+    .container .somework .work button {
+        font-size: 16px;
+    }
+    
+    .container .workbutton button {
+        font-size: 15px;
+    }
+    
+    .container .testimonialsheader h1 {
+        font-size: 20px;
+    }
+    
+    .container .testimonials .testimonial .testimonialimage img {
+        width: 64px;
+    }
+    
+    .container .testimonials .testimonial .ratingstars {
+        font-size: 14px;
+    }
+    
+    .container .testimonials .testimonial {
+        padding: 0px 5px;
+        width: 80%;
+    }
+    
+    .container .testimonials .testimonial p {
+        font-size: 12px;
+    }
+    
+    .container .homecontact h3 {
+        font-size: 15px;
+    }
+    
+    .container .homecontact h1 {
+        font-size: 20px;
+    }
+    
+    .container .formbox .contactinfo h1 {
+        font-size: 18px;
+    }
+    
+    .container footer {
+        height: 100%;
     }
     
     .container footer .socialmedia a {
-        width: 22px;
+        width: 24px;
         background-size: contain;
         background-repeat: no-repeat;
     }
     
     .container footer .newsletter input[type="submit"] {
-        width: 35%;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .container .partnersbg {
-        margin-top: 80px;
+        width: 30%;
+        padding: 10px 0px;
     }
 }
